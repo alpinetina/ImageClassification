@@ -21,7 +21,7 @@ pistachio_dataset/
 
 ---
 ```bash
-#1. Sklonuj repozytorium lub pobierz jako .zip
+#1. Sklonuj repozytorium lub pobierz jako .zip i przejdź do folderu
 cd pistachio-classifier
 
 #2. Stwórz i aktywuj środowisko wirtualne
