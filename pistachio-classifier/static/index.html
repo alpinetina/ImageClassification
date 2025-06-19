@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pistachio Classifier</title>
+</head>
+<body>
+  <h1>Pistachio Classifier</h1>
+
+  <h2>Train the Model</h2>
+  <form action="/train" method="post">
+    <label>Dataset folder (default: pistachio_dataset):</label>
+    <input type="text" name="data_dir" placeholder="pistachio_dataset">
+    <button type="submit">Train</button>
+  </form>
+
+  <h2>Classify an Image</h2>
+  <form action="/predict" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" accept="image/*">
+    <button type="submit">Classify</button>
+  </form>
+
+  <h2>Get Labels</h2>
+  <form action="/labels" method="get">
+    <button type="submit">Show Labels</button>
+  </form>
+</body>
+</html>
