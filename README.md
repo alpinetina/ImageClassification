@@ -2,8 +2,8 @@
 
 ```bash
 #1. Sklonuj repozytorium
-git clone https://github.com/twoje-uzytkownik/twoje-repozytorium.git
-cd twoje-repozytorium
+git clone https://github.com/alpinetina/ImageClassification
+cd ImageClassification
 
 #2. Stwórz i aktywuj środowisko wirtualne
 python -m venv venv
